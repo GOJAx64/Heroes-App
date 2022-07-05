@@ -11,7 +11,7 @@ export const Navbar = () => {
 
     }
     
-    const logoImageUrl = `/assets/heroes/batman2.png`;
+    const logoImageUrl = `/assets/logo.png`;
 
     return (
         <nav className="bg-slate-800 px-2 sm:px-4 py-4 sticky top-0 z-50">

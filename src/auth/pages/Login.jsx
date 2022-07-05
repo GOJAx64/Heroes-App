@@ -11,7 +11,7 @@ export const Login = () => {
 
   }
 
-  const logoImageUrl = `/assets/heroes/batman2.png`;
+  const logoImageUrl = `/assets/logo.png`;
 
   return (
     <>
