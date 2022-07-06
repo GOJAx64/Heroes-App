@@ -28,11 +28,11 @@ export const Login = () => {
                 </div>
             </div>
       </nav>
-      {/*<div className='container mx-auto py-4'>
+      <div className='container mx-auto py-4'>
         <h1 className='font-bold text-2xl text-center'>Login page</h1>
         <hr className='pt-2 border-slate-400'/>
-      </div>*/}
-      <img src={ `/assets/home.jpg` }/>
+      </div>
+      {/*<img src={ `/assets/home.jpg` }/>*/}
     </>
   )
 }
