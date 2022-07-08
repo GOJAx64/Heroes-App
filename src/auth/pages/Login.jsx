@@ -1,14 +1,19 @@
+import { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import { AuthContext } from '../context/AuthContext';
 
 export const Login = () => {
   
+  const { login } = useContext( AuthContext );
   const navigate = useNavigate();
 
   const onLogin = () => {
-      navigate('/', {
-          replace: true
-      });
-
+      
+    login('Alberto');    
+      
+    navigate('/', {
+        replace: true
+    });
   }
 
   const logoImageUrl = `/assets/logo.png`;
