@@ -8,13 +8,12 @@ export const Login = () => {
   const navigate = useNavigate();
 
   const onLogin = () => {
-      
     login('Alberto');    
-      
-    navigate('/', {
+    const lastPath = localStorage.getItem('lastPath') || '/';  
+    navigate(lastPath, {
         replace: true
     });
-  }
+  };
 
   const logoImageUrl = `/assets/logo.png`;
 
